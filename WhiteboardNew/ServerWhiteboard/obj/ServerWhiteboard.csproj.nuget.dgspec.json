@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\ServerWhiteboard\\ServerWhiteboard.csproj": {}
+    "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\ServerWhiteboard\\ServerWhiteboard.csproj": {
+    "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\ServerWhiteboard\\ServerWhiteboard.csproj",
+        "projectUniqueName": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj",
         "projectName": "ServerWhiteboard",
-        "projectPath": "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\ServerWhiteboard\\ServerWhiteboard.csproj",
+        "projectPath": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj",
         "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\ServerWhiteboard\\obj\\",
+        "outputPath": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",

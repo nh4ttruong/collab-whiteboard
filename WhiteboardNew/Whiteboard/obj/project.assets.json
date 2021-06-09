@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\Whiteboard\\Whiteboard.csproj",
+      "projectUniqueName": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\Whiteboard\\Whiteboard.csproj",
       "projectName": "Whiteboard",
-      "projectPath": "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\Whiteboard\\Whiteboard.csproj",
+      "projectPath": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\Whiteboard\\Whiteboard.csproj",
       "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\truon\\source\\repos\\54010nWhiteboard\\Whiteboard\\obj\\",
+      "outputPath": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\Whiteboard\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",

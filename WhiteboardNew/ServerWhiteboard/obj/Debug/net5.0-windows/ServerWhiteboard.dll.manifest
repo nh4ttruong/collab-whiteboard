@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Whiteboard.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="ServerWhiteboard.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -49,38 +49,38 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YM79j8xXUDj0nsoqgCDeA+W9AnvzT2v9AcphvB2FPFA=</dsig:DigestValue>
+        <dsig:DigestValue>qUZW8NRImFe6IEYs7JzjrGe+A+R6RCE4Xf0YfPFO/DI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Whiteboard.deps.json" size="422">
+  <file name="ServerWhiteboard.deps.json" size="440">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>UKN2qdCLbPAZ46IyZDU0g95rtlKCAVqiDA6HxSoCoIY=</dsig:DigestValue>
+      <dsig:DigestValue>1Pv3IhtM4X3POWo0lf6IXSRF2EBCn4vynmhNm98tkck=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Whiteboard.dll" size="59392">
+  <file name="ServerWhiteboard.dll" size="8192">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>y73czVwSi5WgkYGCmriqPYE9pfJoGx1B1/aWce/Jo4g=</dsig:DigestValue>
+      <dsig:DigestValue>jPrwkCYOXnRtddqFtrZX57CV2UyZRq9+5wLpcQ9jBMg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Whiteboard.exe" size="126976">
+  <file name="ServerWhiteboard.exe" size="126976">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fbKy3hhV/EgsLU2w4oK6Zh+zOuSjkcGNx6jdTR8YlSQ=</dsig:DigestValue>
+      <dsig:DigestValue>rh5L0o+cBhbyGWBM3M7nsFaId8DgUN/F/sUg/s8LDbE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Whiteboard.runtimeconfig.json" size="154">
+  <file name="ServerWhiteboard.runtimeconfig.json" size="154">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />

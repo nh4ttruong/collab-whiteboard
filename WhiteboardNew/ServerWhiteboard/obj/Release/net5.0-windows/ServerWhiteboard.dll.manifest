@@ -68,7 +68,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>5w2lvNH1UEpp8AHFSZq6bRGItTccrf2S5RjNhYuNptI=</dsig:DigestValue>
+      <dsig:DigestValue>1MhTMiUO1+atrJA+RLJQEQ7BeO25aBfm4Fl3CZdw9Bw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ServerWhiteboard.exe" size="126976">
