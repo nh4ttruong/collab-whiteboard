@@ -78,11 +78,9 @@ namespace Whiteboard
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.editWS = new System.Windows.Forms.ToolStripMenuItem();
             this.saveImageMI = new System.Windows.Forms.ToolStripMenuItem();
-            this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBoxPaint = new System.Windows.Forms.PictureBox();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.redoButton = new System.Windows.Forms.ToolStripMenuItem();
-            this.undoButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.panelShape.SuspendLayout();
             this.panelTool.SuspendLayout();
             this.panelColor.SuspendLayout();
@@ -707,8 +705,6 @@ namespace Whiteboard
             this.menuStrip.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cleanBoard,
-            this.undoButton,
-            this.redoButton,
             this.editWS,
             this.about,
             this.saveImageMI,
@@ -737,40 +733,25 @@ namespace Whiteboard
             this.saveImageMI.Visible = false;
             this.saveImageMI.Click += new System.EventHandler(this.saveImageMI_Click);
             // 
-            // exit
-            // 
-            this.exit.Name = "exit";
-            this.exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.exit.Size = new System.Drawing.Size(14, 4);
-            this.exit.Click += new System.EventHandler(this.exit_Click);
-            // 
             // pictureBoxPaint
             // 
             this.pictureBoxPaint.BackColor = System.Drawing.Color.White;
             this.pictureBoxPaint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBoxPaint.Location = new System.Drawing.Point(136, 42);
             this.pictureBoxPaint.Name = "pictureBoxPaint";
-            this.pictureBoxPaint.Size = new System.Drawing.Size(1434*2, 799*2);
+            this.pictureBoxPaint.Size = new System.Drawing.Size(1434, 799);
             this.pictureBoxPaint.TabIndex = 14;
             this.pictureBoxPaint.TabStop = false;
             this.pictureBoxPaint.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseDown);
             this.pictureBoxPaint.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseMove);
             this.pictureBoxPaint.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseUp);
             // 
-            // redoButton
+            // exit
             // 
-            this.redoButton.Name = "redoButton";
-            this.redoButton.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.Z)));
-            this.redoButton.Size = new System.Drawing.Size(58, 24);
-            this.redoButton.Text = "Redo";
-            // 
-            // undoButton
-            // 
-            this.undoButton.Name = "undoButton";
-            this.undoButton.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.undoButton.Size = new System.Drawing.Size(59, 24);
-            this.undoButton.Text = "Undo";
+            this.exit.Name = "exit";
+            this.exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.exit.Size = new System.Drawing.Size(14, 4);
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // WorkSpace
             // 
@@ -783,6 +764,7 @@ namespace Whiteboard
             this.Controls.Add(this.panelTool);
             this.Controls.Add(this.pictureBoxPaint);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "WorkSpace";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
@@ -859,7 +841,5 @@ namespace Whiteboard
         private System.Windows.Forms.ToolStripMenuItem editWS;
         private System.Windows.Forms.ToolStripMenuItem saveImageMI;
         private System.Windows.Forms.ToolStripMenuItem exit;
-        private System.Windows.Forms.ToolStripMenuItem undoButton;
-        private System.Windows.Forms.ToolStripMenuItem redoButton;
     }
 }

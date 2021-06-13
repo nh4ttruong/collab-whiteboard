@@ -122,17 +122,7 @@ namespace Whiteboard
                 case 2:
                 case 3:
                     {
-                        lastPoint = e.Location;                        
-                        undoRedoList.Add(canvas);
-                        if (undoRedoList.Count < 1)
-                        {
-                            undoButton.Enabled = false;
-                        }
-                        else
-                        {
-                            undoButton.Enabled = true;
-                        }
-                        // send Image for each other 
+                        lastPoint = e.Location;
                         Send();
                         break;
                     }
@@ -405,9 +395,7 @@ namespace Whiteboard
         {
             if (e.KeyCode == Keys.Delete)
             {
-                {
-                    picList[picList.Count - 1].Dispose();
-                }
+                picList[picList.Count - 1].Dispose();
             }
         }
         #endregion        
@@ -510,7 +498,7 @@ namespace Whiteboard
             }
             pictureBoxPaint.Invalidate();
         }
-        #endregion
+        #endregion  
         //Color Button
         #region Color
         private void colorButton_Click(object sender, EventArgs e)
@@ -619,7 +607,7 @@ namespace Whiteboard
         #endregion
         //Quit Button
         #endregion
-        //LAN Connection - THis is base on Server Code from doandung oc cho
+        //LAN Connection - THis is base on Server Code
         #region Connect LAN
         IPEndPoint IP;
         Socket Client;
@@ -725,10 +713,10 @@ namespace Whiteboard
         #endregion //exit the program //exit 
         //Database
         #region Database
-        public void funData(String str, TextBox text)
+        public void funData(String str, String text)
         {
             _code = str;
-            _name = text.Text;
+            _name = text;
         }
         #endregion
     }

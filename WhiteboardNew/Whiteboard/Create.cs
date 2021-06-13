@@ -16,12 +16,12 @@ namespace Whiteboard
 
         private WorkSpace ws = new WorkSpace();
 
-        public delegate void delPassData(String str, TextBox Text);
+        public delegate void delPassData(String str, String Text);
 
         private void createARoom_Click(object sender, EventArgs e)
         {            
             this.Close();
-            ws.Show();
+            
             String code = "";
             String source = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789";
             Random rd = new Random();
@@ -42,7 +42,8 @@ namespace Whiteboard
             }
             Source_code = code;          
             delPassData del = new delPassData(ws.funData);
-            del(code, textBox1);
+            del(code, textBox1.Text);
+            ws.Show();
         }
     }
 }
