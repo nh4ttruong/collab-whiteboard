@@ -28,7 +28,9 @@ namespace Whiteboard
         private List<Image> undoRedoList = new List<Image>();
         protected int counter = 0;
         private int size;
-        private string _code, _name, _port = "9090";
+        public string _code;
+        public string _name;
+        public string _port = "9090";
         private int isSelect = 0; //1. Pen; 2.Eraser; 3. Fill Tool; 4. Resize workspace; 5. Draw rectangular; 6. Draw Ellipse; 7. Draw triangular
         
         Control draggedPictureBoxPaint = null;
@@ -51,7 +53,7 @@ namespace Whiteboard
         }
         //Database
         #region Database
-        public void funData(String str, String text, String port)
+        public void funData(string str, string text, string port)
         {
             _code = str;
             _name = text;
@@ -74,8 +76,8 @@ namespace Whiteboard
                             (e.Y <= resizingMargin) || (e.Y >= draggedPictureBoxPaint.Height - resizingMargin))
                         {
                             resizing = true;
-                            // indicate resizing
                             this.Cursor = Cursors.SizeNWSE;
+                            // indicate resizing
                             this.startSize = pictureBoxPaint.Size;
                             // get the location of the picture box
                             Point pt = this.PointToScreen(pictureBoxPaint.Location);
@@ -605,6 +607,8 @@ namespace Whiteboard
         private void editWS_Click(object sender, EventArgs e)
         {
             isSelect = 4;
+            this.Cursor = Cursors.SizeAll;
+            this.Cursor = Cursor.Current;
         }
 
         private void about_Click(object sender, EventArgs e)
@@ -684,7 +688,8 @@ namespace Whiteboard
 
             return formatterr.Deserialize(stream);
         }
-        #endregion        //WorkSpace_Load
+        #endregion        
+        //WorkSpace_Load
         private void WorkSpace_Load(object sender, EventArgs e)
         {
             currentColor = Color.Black; //default color

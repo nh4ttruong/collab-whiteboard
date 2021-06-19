@@ -25,6 +25,7 @@ namespace Whiteboard
             CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
         }
+
         private string _port = "9090";
         public void tranData(String port)
         {
@@ -117,6 +118,11 @@ namespace Whiteboard
             BinaryFormatter formatterr = new BinaryFormatter();
 
             return formatterr.Deserialize(stream);
+        }
+
+        private void Server_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

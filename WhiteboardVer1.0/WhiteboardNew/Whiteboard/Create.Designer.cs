@@ -29,18 +29,18 @@ namespace Whiteboard
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.createARoom = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // Name
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(152, 116);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 28);
-            this.textBox1.TabIndex = 3;
+            this.Name.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Name.Location = new System.Drawing.Point(152, 116);
+            this.Name.Name = "Name";
+            this.Name.Size = new System.Drawing.Size(140, 28);
+            this.Name.TabIndex = 3;
             // 
             // label1
             // 
@@ -75,7 +75,7 @@ namespace Whiteboard
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(382, 353);
             this.Controls.Add(this.createARoom);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Name);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("UTM Helve", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MinimumSize = new System.Drawing.Size(400, 400);
@@ -89,9 +89,8 @@ namespace Whiteboard
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button createARoom;
+        private System.Windows.Forms.TextBox Name;
     }
 }

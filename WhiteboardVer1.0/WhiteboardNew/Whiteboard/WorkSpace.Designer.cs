@@ -40,10 +40,6 @@ namespace Whiteboard
             this.saveImage = new System.Windows.Forms.Button();
             this.penButton = new System.Windows.Forms.Button();
             this.importPicture = new System.Windows.Forms.Button();
-            this.member4 = new System.Windows.Forms.Label();
-            this.member3 = new System.Windows.Forms.Label();
-            this.member2 = new System.Windows.Forms.Label();
-            this.member1 = new System.Windows.Forms.Label();
             this.quitButton = new System.Windows.Forms.Button();
             this.labelCopyright = new System.Windows.Forms.Label();
             this.panelTool = new System.Windows.Forms.Panel();
@@ -71,8 +67,6 @@ namespace Whiteboard
             this.labelNickname = new System.Windows.Forms.Label();
             this.nickname = new System.Windows.Forms.Label();
             this.panelCopyright = new System.Windows.Forms.Panel();
-            this.tablePanelMember = new System.Windows.Forms.TableLayoutPanel();
-            this.labelGroupMember = new System.Windows.Forms.Label();
             this.cleanBoard = new System.Windows.Forms.ToolStripMenuItem();
             this.about = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
@@ -87,7 +81,6 @@ namespace Whiteboard
             this.panelSize.SuspendLayout();
             this.tablePanelCode.SuspendLayout();
             this.panelCopyright.SuspendLayout();
-            this.tablePanelMember.SuspendLayout();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPaint)).BeginInit();
             this.SuspendLayout();
@@ -231,54 +224,6 @@ namespace Whiteboard
             this.importPicture.UseVisualStyleBackColor = true;
             this.importPicture.Click += new System.EventHandler(this.importPicture_Click);
             // 
-            // member4
-            // 
-            this.member4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.member4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.member4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.member4.Location = new System.Drawing.Point(3, 88);
-            this.member4.Name = "member4";
-            this.member4.Size = new System.Drawing.Size(93, 22);
-            this.member4.TabIndex = 0;
-            this.member4.Text = "member4";
-            this.member4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // member3
-            // 
-            this.member3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.member3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.member3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.member3.Location = new System.Drawing.Point(3, 66);
-            this.member3.Name = "member3";
-            this.member3.Size = new System.Drawing.Size(93, 22);
-            this.member3.TabIndex = 0;
-            this.member3.Text = "member3";
-            this.member3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // member2
-            // 
-            this.member2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.member2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.member2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.member2.Location = new System.Drawing.Point(3, 44);
-            this.member2.Name = "member2";
-            this.member2.Size = new System.Drawing.Size(93, 22);
-            this.member2.TabIndex = 0;
-            this.member2.Text = "member2";
-            this.member2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // member1
-            // 
-            this.member1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.member1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.member1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.member1.Location = new System.Drawing.Point(3, 22);
-            this.member1.Name = "member1";
-            this.member1.Size = new System.Drawing.Size(93, 22);
-            this.member1.TabIndex = 0;
-            this.member1.Text = "member1";
-            this.member1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // quitButton
             // 
             this.quitButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
@@ -320,7 +265,6 @@ namespace Whiteboard
             this.panelTool.Controls.Add(this.tablePanelCode);
             this.panelTool.Controls.Add(this.panelCopyright);
             this.panelTool.Controls.Add(this.importPicture);
-            this.panelTool.Controls.Add(this.tablePanelMember);
             this.panelTool.Controls.Add(this.quitButton);
             this.panelTool.Controls.Add(this.penButton);
             this.panelTool.Controls.Add(this.eraserButton);
@@ -635,7 +579,7 @@ namespace Whiteboard
             this.nickname.Name = "nickname";
             this.nickname.Size = new System.Drawing.Size(106, 18);
             this.nickname.TabIndex = 2;
-            this.nickname.Text = "#nicknamehere#";
+            this.nickname.Text = "#nickne#";
             this.nickname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelCopyright
@@ -647,41 +591,6 @@ namespace Whiteboard
             this.panelCopyright.Name = "panelCopyright";
             this.panelCopyright.Size = new System.Drawing.Size(124, 22);
             this.panelCopyright.TabIndex = 15;
-            // 
-            // tablePanelMember
-            // 
-            this.tablePanelMember.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tablePanelMember.ColumnCount = 1;
-            this.tablePanelMember.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tablePanelMember.Controls.Add(this.member1, 0, 1);
-            this.tablePanelMember.Controls.Add(this.member4, 0, 4);
-            this.tablePanelMember.Controls.Add(this.member2, 0, 2);
-            this.tablePanelMember.Controls.Add(this.member3, 0, 3);
-            this.tablePanelMember.Controls.Add(this.labelGroupMember, 0, 0);
-            this.tablePanelMember.Location = new System.Drawing.Point(11, 619);
-            this.tablePanelMember.Margin = new System.Windows.Forms.Padding(2);
-            this.tablePanelMember.Name = "tablePanelMember";
-            this.tablePanelMember.RowCount = 5;
-            this.tablePanelMember.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tablePanelMember.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tablePanelMember.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tablePanelMember.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tablePanelMember.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tablePanelMember.Size = new System.Drawing.Size(99, 110);
-            this.tablePanelMember.TabIndex = 11;
-            // 
-            // labelGroupMember
-            // 
-            this.labelGroupMember.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.labelGroupMember.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelGroupMember.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelGroupMember.Location = new System.Drawing.Point(2, 0);
-            this.labelGroupMember.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labelGroupMember.Name = "labelGroupMember";
-            this.labelGroupMember.Size = new System.Drawing.Size(94, 22);
-            this.labelGroupMember.TabIndex = 0;
-            this.labelGroupMember.Text = "&Members";
-            this.labelGroupMember.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cleanBoard
             // 
@@ -780,7 +689,6 @@ namespace Whiteboard
             this.tablePanelCode.ResumeLayout(false);
             this.tablePanelCode.PerformLayout();
             this.panelCopyright.ResumeLayout(false);
-            this.tablePanelMember.ResumeLayout(false);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPaint)).EndInit();
@@ -794,10 +702,6 @@ namespace Whiteboard
         private System.Windows.Forms.Button importPicture;
         private System.Windows.Forms.Button saveImage;
         private System.Windows.Forms.Button quitButton;
-        private System.Windows.Forms.Label member4;
-        private System.Windows.Forms.Label member3;
-        private System.Windows.Forms.Label member2;
-        private System.Windows.Forms.Label member1;
         private System.Windows.Forms.Label labelCopyright;
         private System.Windows.Forms.Button sizeButton;
         private System.Windows.Forms.Button eraserButton;
@@ -807,8 +711,6 @@ namespace Whiteboard
         private System.Windows.Forms.Button triangle;
         private System.Windows.Forms.Button recangle;
         private System.Windows.Forms.Panel panelTool;
-        private System.Windows.Forms.TableLayoutPanel tablePanelMember;
-        private System.Windows.Forms.Label labelGroupMember;
         private System.Windows.Forms.TableLayoutPanel tablePanelCode;
         private System.Windows.Forms.Panel panelSize;
         private System.Windows.Forms.Button size4;

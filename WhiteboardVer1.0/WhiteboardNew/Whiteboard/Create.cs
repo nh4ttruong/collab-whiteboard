@@ -36,8 +36,9 @@ namespace Whiteboard
         private WorkSpace ws = new WorkSpace();
         private Server sr = new Server();
 
-        public delegate void delPassData(String str, String Text, String port);
+        public delegate void delPassData(string str, string Text, string port);
         public delegate void tranPassData( String port);
+
 
         private void createARoom_Click(object sender, EventArgs e)
         {            
@@ -48,9 +49,8 @@ namespace Whiteboard
             code = i.Code;
             tranPassData tran = new tranPassData(sr.tranData);
             tran(i.Port);
-            sr.Show();
             delPassData del = new delPassData(ws.funData);
-            del(code, textBox1.Text,i.Port);          
+            del(code, Name.Text, i.Port);
             ws.Show();
         }
         
