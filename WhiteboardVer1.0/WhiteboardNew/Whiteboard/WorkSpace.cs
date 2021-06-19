@@ -28,7 +28,7 @@ namespace Whiteboard
         private List<Image> undoRedoList = new List<Image>();
         protected int counter = 0;
         private int size;
-        private string _code, _name;
+        private string _code, _name, _port = "9090";
         private int isSelect = 0; //1. Pen; 2.Eraser; 3. Fill Tool; 4. Resize workspace; 5. Draw rectangular; 6. Draw Ellipse; 7. Draw triangular
         
         Control draggedPictureBoxPaint = null;
@@ -43,14 +43,22 @@ namespace Whiteboard
         public WorkSpace()
         {
             InitializeComponent();
-            Connect();
             canvas = new Bitmap(pictureBoxPaint.Width, pictureBoxPaint.Height);
             pictureBoxPaint.Image = canvas;
             g = Graphics.FromImage(pictureBoxPaint.Image);
             isClose = false;
             pictureBoxPaint.Size = new Size(1434, 799);
         }
-
+        //Database
+        #region Database
+        public void funData(String str, String text, String port)
+        {
+            _code = str;
+            _name = text;
+            _port = port;
+            Connect();
+        }
+        #endregion
         #region Mouse Controls/Pen Tool/Eraser Tool
         private void pictureBoxPaint_MouseDown(object sender, MouseEventArgs e)
         {
@@ -615,7 +623,8 @@ namespace Whiteboard
         void Connect()
         {
             //IP: server address
-            IP = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 9900);
+            int Port = Int32.Parse(_port);
+            IP = new IPEndPoint(IPAddress.Parse("127.0.0.1"),Port);
             Client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
 
             try
@@ -691,6 +700,11 @@ namespace Whiteboard
             this.Close();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -711,14 +725,7 @@ namespace Whiteboard
             }
         }
         #endregion //exit the program //exit 
-        //Database
-        #region Database
-        public void funData(String str, String text)
-        {
-            _code = str;
-            _name = text;
-        }
-        #endregion
+        
     }
 }
 

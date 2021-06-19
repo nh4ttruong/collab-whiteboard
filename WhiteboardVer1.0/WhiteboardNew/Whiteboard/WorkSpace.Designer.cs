@@ -78,9 +78,9 @@ namespace Whiteboard
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.editWS = new System.Windows.Forms.ToolStripMenuItem();
             this.saveImageMI = new System.Windows.Forms.ToolStripMenuItem();
+            this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBoxPaint = new System.Windows.Forms.PictureBox();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.panelShape.SuspendLayout();
             this.panelTool.SuspendLayout();
             this.panelColor.SuspendLayout();
@@ -733,6 +733,13 @@ namespace Whiteboard
             this.saveImageMI.Visible = false;
             this.saveImageMI.Click += new System.EventHandler(this.saveImageMI_Click);
             // 
+            // exit
+            // 
+            this.exit.Name = "exit";
+            this.exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.exit.Size = new System.Drawing.Size(14, 4);
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
             // pictureBoxPaint
             // 
             this.pictureBoxPaint.BackColor = System.Drawing.Color.White;
@@ -745,13 +752,6 @@ namespace Whiteboard
             this.pictureBoxPaint.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseDown);
             this.pictureBoxPaint.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseMove);
             this.pictureBoxPaint.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseUp);
-            // 
-            // exit
-            // 
-            this.exit.Name = "exit";
-            this.exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.exit.Size = new System.Drawing.Size(14, 4);
-            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // WorkSpace
             // 

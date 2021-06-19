@@ -6,44 +6,53 @@ namespace Whiteboard
 {
     public partial class Create : Form
     {
-        string Source_code = "";
-        List<string> Data_code = new List<string>();
-        bool flag_code = true;
+        string code = "";
         public Create()
         {
             InitializeComponent();
         }
 
-        private WorkSpace ws = new WorkSpace();
+        struct MyCode
+        {
+            public String Code;
+            public String Port;
+            public MyCode(String Code, String Port)
+            {
+                this.Code = Code;
+                this.Port = Port;
+            }
+        }
+        static List<MyCode> List_code = new List<MyCode>()
+        {
+            new MyCode("yV3zB7","9900"),
+            new MyCode("uKz1vn","9901"),
+            new MyCode("keOH2t","9902"),
+            new MyCode("APgkfk","9903"),
+            new MyCode("0xdXja","9904"),
+            new MyCode("5GVokO","9905"),
 
-        public delegate void delPassData(String str, String Text);
+        };
+
+        private WorkSpace ws = new WorkSpace();
+        private Server sr = new Server();
+
+        public delegate void delPassData(String str, String Text, String port);
+        public delegate void tranPassData( String port);
 
         private void createARoom_Click(object sender, EventArgs e)
         {            
             this.Close();
-            
-            String code = "";
-            String source = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789";
             Random rd = new Random();
-            int index;
-            while (flag_code)
-            {
-                code = "";
-                for (int i = 0; i < 6; i++)
-                {
-                    index = rd.Next(0, source.Length);
-                    code += source[index];
-                }
-                if (!Data_code.Contains(code))
-                {
-                    flag_code = false;
-                    Data_code.Add(code);
-                }
-            }
-            Source_code = code;          
+            int index = rd.Next(0, 5);
+            MyCode i = List_code[index];
+            code = i.Code;
+            tranPassData tran = new tranPassData(sr.tranData);
+            tran(i.Port);
+            sr.Show();
             delPassData del = new delPassData(ws.funData);
-            del(code, textBox1.Text);
+            del(code, textBox1.Text,i.Port);          
             ws.Show();
         }
+        
     }
 }

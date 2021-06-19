@@ -8,19 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\truon\\.nuget\\packages\\": {}
+    "C:\\Users\\datnl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj",
+      "projectUniqueName": "D:\\School\\NT106.L21.ANTT-LTMCB\\Project_WhiteBoard\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj",
       "projectName": "ServerWhiteboard",
-      "projectPath": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj",
-      "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\truon\\OneDrive\\Documents\\GitHub\\PaintCollaborator\\WhiteboardNew\\ServerWhiteboard\\obj\\",
+      "projectPath": "D:\\School\\NT106.L21.ANTT-LTMCB\\Project_WhiteBoard\\WhiteboardNew\\ServerWhiteboard\\ServerWhiteboard.csproj",
+      "packagesPath": "C:\\Users\\datnl\\.nuget\\packages\\",
+      "outputPath": "D:\\School\\NT106.L21.ANTT-LTMCB\\Project_WhiteBoard\\WhiteboardNew\\ServerWhiteboard\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\datnl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,6 +16,9 @@
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="WorkSpace.cs">
       <SubType>Form</SubType>
     </Compile>
