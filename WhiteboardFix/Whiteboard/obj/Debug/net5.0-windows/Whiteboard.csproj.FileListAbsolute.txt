@@ -1,0 +1,181 @@
+C:\Users\truon\source\repos\54010nWhiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+C:\Users\truon\source\repos\54010nWhiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+C:\Users\truon\source\repos\54010nWhiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+C:\Users\truon\source\repos\54010nWhiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+C:\Users\truon\source\repos\54010nWhiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.csprojAssemblyReference.cache
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\source\repos\54010nWhiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csprojAssemblyReference.cache
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\source\repos\54010nWhiteboard\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csprojAssemblyReference.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.AssemblyReference.cache
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
+C:\Users\datnl\Documents\GitHub\PaintCollaborator\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Server.resources
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.AssemblyReference.cache
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Server.resources
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+D:\School\NT106.L21.ANTT-LTMCB\Project_WhiteBoard\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.AssemblyReference.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Server.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\truon\OneDrive\Documents\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Server.resources
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+C:\Users\ASUS\OneDrive\Tài liệu\GitHub\PaintCollaborator\WhiteboardVer1.0\WhiteboardNew\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
+D:\WhiteboardFix\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.exe
+D:\WhiteboardFix\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.deps.json
+D:\WhiteboardFix\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.json
+D:\WhiteboardFix\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.runtimeconfig.dev.json
+D:\WhiteboardFix\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.dll
+D:\WhiteboardFix\Whiteboard\bin\Debug\net5.0-windows\ref\Whiteboard.dll
+D:\WhiteboardFix\Whiteboard\bin\Debug\net5.0-windows\Whiteboard.pdb
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.AssemblyReference.cache
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Create.resources
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Join.resources
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Menu.resources
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Properties.Resources.resources
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.Server.resources
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.WorkSpace.resources
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.GenerateResource.cache
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.GeneratedMSBuildEditorConfig.editorconfig
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfoInputs.cache
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.AssemblyInfo.cs
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.csproj.CoreCompileInputs.cache
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.dll
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\ref\Whiteboard.dll
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.pdb
+D:\WhiteboardFix\Whiteboard\obj\Debug\net5.0-windows\Whiteboard.genruntimeconfig.cache
