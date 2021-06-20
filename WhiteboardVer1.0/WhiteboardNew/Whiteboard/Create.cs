@@ -30,7 +30,6 @@ namespace Whiteboard
             new MyCode("APgkfk","9903"),
             new MyCode("0xdXja","9904"),
             new MyCode("5GVokO","9905"),
-
         };
 
         private WorkSpace ws = new WorkSpace();
@@ -42,7 +41,6 @@ namespace Whiteboard
 
         private void createARoom_Click(object sender, EventArgs e)
         {            
-            this.Close();
             Random rd = new Random();
             int index = rd.Next(0, 5);
             MyCode i = List_code[index];
@@ -51,6 +49,7 @@ namespace Whiteboard
             tran(i.Port);
             delPassData del = new delPassData(ws.funData);
             del(code, Name.Text, i.Port);
+            this.Close();
             ws.Show();
         }
         

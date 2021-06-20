@@ -62,13 +62,13 @@
       <dsig:DigestValue>UKN2qdCLbPAZ46IyZDU0g95rtlKCAVqiDA6HxSoCoIY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Whiteboard.dll" size="62464">
+  <file name="Whiteboard.dll" size="62976">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jQqd36FKnlvlgUXlMrEbn2M26KM24ex36KUJ/Wtr/64=</dsig:DigestValue>
+      <dsig:DigestValue>tFUH8bdON8FPFAUGflmAMBURgSwH8o/hq4urkrBYGf4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Whiteboard.exe" size="126976">
@@ -77,7 +77,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fbKy3hhV/EgsLU2w4oK6Zh+zOuSjkcGNx6jdTR8YlSQ=</dsig:DigestValue>
+      <dsig:DigestValue>5Gr1/8ek9XeTAZ4WUe/8sOB7IylYC/ZWJoH2Ysvc8Zc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Whiteboard.runtimeconfig.json" size="154">

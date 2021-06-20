@@ -79,7 +79,6 @@ namespace Whiteboard
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("UTM Helve", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MinimumSize = new System.Drawing.Size(400, 400);
-            this.Name = "Create";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Create";

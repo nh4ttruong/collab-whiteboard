@@ -695,7 +695,7 @@ namespace Whiteboard
             currentColor = Color.Black; //default color
             code.Text = _code;
             nickname.Text = _name;
-            code.TextAlign = ContentAlignment.MiddleCenter;
+            code.TextAlign = HorizontalAlignment.Center;
             nickname.TextAlign = ContentAlignment.MiddleCenter;
         }
         //exit a program

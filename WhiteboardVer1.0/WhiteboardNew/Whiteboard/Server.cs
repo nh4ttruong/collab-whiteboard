@@ -104,6 +104,7 @@ namespace Whiteboard
 
         }
 
+
         byte[] Serialize(object obj)
         {
             MemoryStream stream = new MemoryStream();

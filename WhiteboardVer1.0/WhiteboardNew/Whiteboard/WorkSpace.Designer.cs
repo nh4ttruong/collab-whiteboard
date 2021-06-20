@@ -62,9 +62,9 @@ namespace Whiteboard
             this.size2 = new System.Windows.Forms.Button();
             this.size1 = new System.Windows.Forms.Button();
             this.tablePanelCode = new System.Windows.Forms.TableLayoutPanel();
-            this.code = new System.Windows.Forms.Label();
-            this.labelCode = new System.Windows.Forms.Label();
             this.labelNickname = new System.Windows.Forms.Label();
+            this.labelCode = new System.Windows.Forms.Label();
+            this.code = new System.Windows.Forms.TextBox();
             this.nickname = new System.Windows.Forms.Label();
             this.panelCopyright = new System.Windows.Forms.Panel();
             this.cleanBoard = new System.Windows.Forms.ToolStripMenuItem();
@@ -516,11 +516,10 @@ namespace Whiteboard
             // tablePanelCode
             // 
             this.tablePanelCode.ColumnCount = 1;
-            this.tablePanelCode.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tablePanelCode.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tablePanelCode.Controls.Add(this.code, 0, 1);
-            this.tablePanelCode.Controls.Add(this.labelCode, 0, 0);
+            this.tablePanelCode.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
             this.tablePanelCode.Controls.Add(this.labelNickname, 0, 2);
+            this.tablePanelCode.Controls.Add(this.labelCode, 0, 0);
+            this.tablePanelCode.Controls.Add(this.code, 0, 1);
             this.tablePanelCode.Controls.Add(this.nickname, 0, 3);
             this.tablePanelCode.Dock = System.Windows.Forms.DockStyle.Top;
             this.tablePanelCode.Location = new System.Drawing.Point(0, 0);
@@ -528,54 +527,59 @@ namespace Whiteboard
             this.tablePanelCode.Name = "tablePanelCode";
             this.tablePanelCode.Padding = new System.Windows.Forms.Padding(6);
             this.tablePanelCode.RowCount = 4;
-            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tablePanelCode.Size = new System.Drawing.Size(124, 83);
+            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tablePanelCode.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tablePanelCode.Size = new System.Drawing.Size(124, 93);
             this.tablePanelCode.TabIndex = 15;
-            // 
-            // code
-            // 
-            this.code.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.code.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.code.Location = new System.Drawing.Point(9, 24);
-            this.code.Name = "code";
-            this.code.Size = new System.Drawing.Size(106, 18);
-            this.code.TabIndex = 1;
-            this.code.Text = "#codehere#";
-            this.code.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelCode
-            // 
-            this.labelCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelCode.AutoSize = true;
-            this.labelCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelCode.Location = new System.Drawing.Point(9, 6);
-            this.labelCode.Name = "labelCode";
-            this.labelCode.Size = new System.Drawing.Size(106, 18);
-            this.labelCode.TabIndex = 0;
-            this.labelCode.Text = "&Code";
-            this.labelCode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelNickname
             // 
             this.labelNickname.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.labelNickname.AutoSize = true;
             this.labelNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelNickname.Location = new System.Drawing.Point(9, 42);
+            this.labelNickname.Location = new System.Drawing.Point(9, 47);
             this.labelNickname.Name = "labelNickname";
             this.labelNickname.Size = new System.Drawing.Size(106, 18);
             this.labelNickname.TabIndex = 0;
             this.labelNickname.Text = "&Nickname";
             this.labelNickname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // labelCode
+            // 
+            this.labelCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelCode.AutoSize = true;
+            this.labelCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelCode.Location = new System.Drawing.Point(9, 7);
+            this.labelCode.Name = "labelCode";
+            this.labelCode.Size = new System.Drawing.Size(106, 18);
+            this.labelCode.TabIndex = 0;
+            this.labelCode.Text = "&Code";
+            this.labelCode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // code
+            // 
+            this.code.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.code.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.code.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.code.HideSelection = false;
+            this.code.Location = new System.Drawing.Point(9, 29);
+            this.code.Name = "code";
+            this.code.ReadOnly = true;
+            this.code.Size = new System.Drawing.Size(106, 17);
+            this.code.TabIndex = 0;
+            this.code.TabStop = false;
+            this.code.Text = "#code#";
+            this.code.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // nickname
             // 
             this.nickname.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nickname.AutoEllipsis = true;
             this.nickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nickname.Location = new System.Drawing.Point(9, 60);
+            this.nickname.Location = new System.Drawing.Point(9, 67);
             this.nickname.Name = "nickname";
             this.nickname.Size = new System.Drawing.Size(106, 18);
             this.nickname.TabIndex = 2;
@@ -730,7 +734,6 @@ namespace Whiteboard
         private System.Windows.Forms.Button colorRed;
         private System.Windows.Forms.Label labelCode;
         private System.Windows.Forms.Label labelNickname;
-        private System.Windows.Forms.Label code;
         private System.Windows.Forms.Label nickname;
         public System.Windows.Forms.ToolStripMenuItem cleanBoard;
         private System.Windows.Forms.ToolStripMenuItem about;
@@ -743,5 +746,6 @@ namespace Whiteboard
         private System.Windows.Forms.ToolStripMenuItem editWS;
         private System.Windows.Forms.ToolStripMenuItem saveImageMI;
         private System.Windows.Forms.ToolStripMenuItem exit;
+        private System.Windows.Forms.TextBox code;
     }
 }
