@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Collections.Generic;
+using MongoDB.Driver;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
 
 namespace Whiteboard
 {
@@ -30,6 +33,10 @@ namespace Whiteboard
             new MyCode("APgkfk","9903"),
             new MyCode("0xdXja","9904"),
             new MyCode("5GVokO","9905"),
+            new MyCode("5ccokO","9906"),
+            new MyCode("axVokA","9907"),
+            new MyCode("1234kO","9908"),
+            new MyCode("678jhK","9909"),
 
         };
         static String FindPort(List<MyCode> List, String a)
@@ -47,11 +54,12 @@ namespace Whiteboard
 
         private void joinARoom_Click(object sender, EventArgs e)
         {
-            String port = FindPort(List_code, Code.Text);
+            String port = FindPort(List_code, code.Text);
             if (port != null)
             {
                 delPassData del = new delPassData(ws.funData);
-                del(Code.Text, Name.Text, port);
+                del(code.Text, nickname.Text, port);
+                db.InsertRecords("User", new UserInfo { Admin = false, UserName = nickname.Text });
                 ws.Show();
                 this.Close();
             }
@@ -59,6 +67,47 @@ namespace Whiteboard
             {
                 MessageBox.Show("Invalid code!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        public class UserInfo
+        {
+            [BsonId]
+            public Guid Id { get; set; }
+            public string UserName { get; set; }
+            public bool Admin { get; set; }
+            public string G_Id { get; set; }
+        }
+        public class Group
+        {
+            public Guid G_Id { get; set; }
+            public string GroupName { get; set; }
+            public string M_Id { get; set; }
+            public string Code { get; set; }
+        }
+        public class Code
+        {
+            public string U_Id { get; set; }
+            public string G_Id { get; set; }
+        }
+        public class MongoGRUD
+        {
+            private IMongoDatabase db;
+            public MongoGRUD(string database)
+            {
+                var client = new MongoClient("mongodb://127.0.0.1:27017");
+                db = client.GetDatabase(database);
+            }
+            public void InsertRecords<T>(string table, T record)
+            {
+                var collection = db.GetCollection<T>(table);
+                collection.InsertOne(record);
+            }
+        }
+        public MongoGRUD db;
+        private void Join_Load(object sender, EventArgs e)
+        {
+            db = new MongoGRUD("WhiteBoardRealtime"); //call Server
+            //LoadData
         }
     }
 }

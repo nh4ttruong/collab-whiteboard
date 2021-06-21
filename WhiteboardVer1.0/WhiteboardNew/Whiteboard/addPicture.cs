@@ -17,7 +17,7 @@ namespace Whiteboard
         {
             this.Name = "pictureBox";
             this.Location = new Point(0, 0);
-            this.Size = new Size(500, 500);
+            this.Size = new Size(250, 250);
             this.SizeMode = PictureBoxSizeMode.Zoom;
         }
 
@@ -26,6 +26,7 @@ namespace Whiteboard
             container.Add(this);
         }
 
+        public static bool isImported = false;
         //Chỗ này là load picture
         public void loadPicture()
         {
@@ -33,14 +34,17 @@ namespace Whiteboard
             try
             {
                 OpenFileDialog dialog = new OpenFileDialog();
-                dialog.Filter = "jpg files(*.jpg)|*.jpg";
+                dialog.Filter = "jpg files (*.jpg)|*.jpg";
+                dialog.Title = "Import image";
 
-                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                if (dialog.ShowDialog() == DialogResult.OK)
                 {
+                    isImported = true;
                     imageL = dialog.FileName;
                     this.ImageLocation = imageL;
                     this.BringToFront();
                 }
+                else return;
             }
             catch (Exception)
             {

@@ -7,6 +7,9 @@
     <Compile Update="addPicture.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="customBt.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Create.cs">
       <SubType>Form</SubType>
     </Compile>

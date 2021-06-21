@@ -18,7 +18,7 @@ namespace Whiteboard
 {
     public partial class WorkSpace : Form
     {
-        #region stuffs
+        #region stuff
         public static bool isClose = new Boolean();
         public Color currentColor;
         public Bitmap canvas;
@@ -95,8 +95,7 @@ namespace Whiteboard
                     }
                 case 3: //Fill tool
                     {
-                        Fill(canvas, e.Location, canvas.GetPixel(e.X*3/2, e.Y*3/2), currentColor);
-                        Send();
+                        Fill(canvas, e.Location, canvas.GetPixel(e.X, e.Y), currentColor);
                         break;
                     }
                 case 5:
@@ -394,11 +393,15 @@ namespace Whiteboard
         private void importPicture_Click(object sender, EventArgs e)
         {
             this.Cursor = Cursors.Default;
-            this.Cursor = Cursor.Current;
             CustomPictureBox picture = new CustomPictureBox();
             picture.loadPicture();
-            pictureBoxPaint.Controls.Add(picture);
-            pictureBoxPaint.Invalidate();
+            if (CustomPictureBox.isImported == true)
+            {
+                picList.Add(picture);
+                pictureBoxPaint.Controls.Add(picture);
+                pictureBoxPaint.Invalidate();
+                Send();
+            }                     
         }
         //Delete
         private void WorkSpace_KeyDown(object sender, KeyEventArgs e)
@@ -406,6 +409,7 @@ namespace Whiteboard
             if (e.KeyCode == Keys.Delete)
             {
                 picList[picList.Count - 1].Dispose();
+                picList.Remove(picList[picList.Count - 1]);
             }
         }
         #endregion        
@@ -506,7 +510,7 @@ namespace Whiteboard
                     y1++;
                 }
             }
-            pictureBoxPaint.Invalidate();
+            Send();
         }
         #endregion  
         //Color Button
@@ -590,7 +594,7 @@ namespace Whiteboard
             colorSelect(colorBlack);
         }
         #endregion
-        //Tool Strip Menu Items (Undo, Redo, CleanBoard, About)
+        //Tool Strip Menu Items (CleanBoard, About)
         #region Tool Strip Menu Items
         private void cleanBoard_Click(object sender, EventArgs e)
         {
@@ -599,8 +603,12 @@ namespace Whiteboard
             if (rs == DialogResult.OK)
             {
                 g.Clear(Color.White);
+                foreach(CustomPictureBox i in picList)
+                {
+                    i.Dispose();
+                }
+                picList.Clear();
                 Send();
-                pictureBoxPaint.Invalidate();
             }          
         }
 
@@ -650,6 +658,7 @@ namespace Whiteboard
         {
             Client.Send(Serialize(pictureBoxPaint.Image));
         }
+
         void Receive()
         {
             try

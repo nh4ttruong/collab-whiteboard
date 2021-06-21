@@ -87,7 +87,7 @@ namespace Whiteboard
             // 
             // panelShape
             // 
-            this.panelShape.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panelShape.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.panelShape.Controls.Add(this.circle);
             this.panelShape.Controls.Add(this.triangle);
             this.panelShape.Controls.Add(this.recangle);
@@ -231,7 +231,7 @@ namespace Whiteboard
             this.quitButton.BackColor = System.Drawing.SystemColors.Control;
             this.quitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.quitButton.Image = global::Whiteboard.Properties.Resources.quit;
-            this.quitButton.Location = new System.Drawing.Point(26, 738);
+            this.quitButton.Location = new System.Drawing.Point(26, 927);
             this.quitButton.Name = "quitButton";
             this.quitButton.Size = new System.Drawing.Size(72, 71);
             this.quitButton.TabIndex = 17;
@@ -256,7 +256,7 @@ namespace Whiteboard
             // 
             // panelTool
             // 
-            this.panelTool.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panelTool.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.panelTool.Controls.Add(this.colorButton);
             this.panelTool.Controls.Add(this.fillButton);
             this.panelTool.Controls.Add(this.panelShape);
@@ -276,7 +276,7 @@ namespace Whiteboard
             this.panelTool.Margin = new System.Windows.Forms.Padding(2);
             this.panelTool.MinimumSize = new System.Drawing.Size(124, 853);
             this.panelTool.Name = "panelTool";
-            this.panelTool.Size = new System.Drawing.Size(124, 853);
+            this.panelTool.Size = new System.Drawing.Size(124, 1042);
             this.panelTool.TabIndex = 13;
             // 
             // colorButton
@@ -307,7 +307,7 @@ namespace Whiteboard
             // 
             // panelColor
             // 
-            this.panelColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panelColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.panelColor.Controls.Add(this.labelMoreColor);
             this.panelColor.Controls.Add(this.colorWhite);
             this.panelColor.Controls.Add(this.colorBlack);
@@ -453,7 +453,7 @@ namespace Whiteboard
             // 
             // panelSize
             // 
-            this.panelSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panelSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.panelSize.Controls.Add(this.size4);
             this.panelSize.Controls.Add(this.size3);
             this.panelSize.Controls.Add(this.size2);
@@ -539,6 +539,7 @@ namespace Whiteboard
             // 
             this.labelNickname.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.labelNickname.AutoSize = true;
+            this.labelNickname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.labelNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelNickname.Location = new System.Drawing.Point(9, 47);
             this.labelNickname.Name = "labelNickname";
@@ -551,6 +552,7 @@ namespace Whiteboard
             // 
             this.labelCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.labelCode.AutoSize = true;
+            this.labelCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.labelCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelCode.Location = new System.Drawing.Point(9, 7);
             this.labelCode.Name = "labelCode";
@@ -561,7 +563,7 @@ namespace Whiteboard
             // 
             // code
             // 
-            this.code.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.code.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.code.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.code.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.code.HideSelection = false;
@@ -578,6 +580,7 @@ namespace Whiteboard
             // 
             this.nickname.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nickname.AutoEllipsis = true;
+            this.nickname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.nickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nickname.Location = new System.Drawing.Point(9, 67);
             this.nickname.Name = "nickname";
@@ -590,7 +593,7 @@ namespace Whiteboard
             // 
             this.panelCopyright.Controls.Add(this.labelCopyright);
             this.panelCopyright.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelCopyright.Location = new System.Drawing.Point(0, 831);
+            this.panelCopyright.Location = new System.Drawing.Point(0, 1020);
             this.panelCopyright.Margin = new System.Windows.Forms.Padding(2);
             this.panelCopyright.Name = "panelCopyright";
             this.panelCopyright.Size = new System.Drawing.Size(124, 22);
@@ -613,7 +616,7 @@ namespace Whiteboard
             // 
             // menuStrip
             // 
-            this.menuStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.menuStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -626,7 +629,7 @@ namespace Whiteboard
             this.menuStrip.Location = new System.Drawing.Point(124, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip.Size = new System.Drawing.Size(1458, 28);
+            this.menuStrip.Size = new System.Drawing.Size(2012, 28);
             this.menuStrip.TabIndex = 1;
             this.menuStrip.Text = "menuStrip";
             // 
@@ -659,7 +662,7 @@ namespace Whiteboard
             this.pictureBoxPaint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBoxPaint.Location = new System.Drawing.Point(136, 42);
             this.pictureBoxPaint.Name = "pictureBoxPaint";
-            this.pictureBoxPaint.Size = new System.Drawing.Size(1434, 799);
+            this.pictureBoxPaint.Size = new System.Drawing.Size(2000, 1000);
             this.pictureBoxPaint.TabIndex = 14;
             this.pictureBoxPaint.TabStop = false;
             this.pictureBoxPaint.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseDown);
@@ -672,6 +675,7 @@ namespace Whiteboard
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1582, 853);
             this.Controls.Add(this.menuStrip);
             this.Controls.Add(this.panelTool);

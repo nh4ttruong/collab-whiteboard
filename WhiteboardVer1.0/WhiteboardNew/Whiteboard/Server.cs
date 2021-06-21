@@ -15,6 +15,10 @@ using System.Net;
 using System.Net.Sockets;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
+using MongoDB.Driver;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
 
 namespace Whiteboard
 {
@@ -53,8 +57,10 @@ namespace Whiteboard
                     {
                         server.Listen(100);
                         Socket client = server.Accept();
-                        clientList.Add(client);
-
+                        if(clientList.Count < 4)
+                        {
+                            clientList.Add(client);
+                        }                      
                         Thread receive = new Thread(Receive);
                         receive.IsBackground = true;
                         receive.Start(client);
@@ -123,7 +129,44 @@ namespace Whiteboard
 
         private void Server_Load(object sender, EventArgs e)
         {
+            MongoGRUD db = new MongoGRUD("WhiteBoardRealtime"); //call Server          
+        }
 
+        public class UserInfo
+        {
+            [BsonId]
+            public Guid Id { get; set; }
+            public string UserName { get; set; }
+            public bool Admin { get; set; }
+            // public DateTime Day { get; set; }
+            public string G_Id { get; set; }
+        }
+        public class Group
+        {
+            public Guid G_Id { get; set; }
+            public string GroupName { get; set; }
+            public string M_Id { get; set; }
+            public string Code { get; set; }
+        }
+        public class Code
+        {
+            public string code { get; set; }
+            public string port { get; set; }
+        }
+
+        public class MongoGRUD
+        {
+            private IMongoDatabase db;
+            public MongoGRUD(string database)
+            {
+                var client = new MongoClient("mongodb://127.0.0.1:27017");
+                db = client.GetDatabase(database);
+            }
+            public void InsertRecords<T>(string table, T record)
+            {
+                var collection = db.GetCollection<T>(table);
+                collection.InsertOne(record);
+            }
         }
     }
 }
