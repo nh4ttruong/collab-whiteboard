@@ -1,5 +1,0 @@
-C:\Users\truon\source\repos\ServerWhiteboard\bin\publish\ServerWhiteboard.exe
-C:\Users\truon\source\repos\ServerWhiteboard\bin\publish\ServerWhiteboard.dll
-C:\Users\truon\source\repos\ServerWhiteboard\bin\publish\ServerWhiteboard.deps.json
-C:\Users\truon\source\repos\ServerWhiteboard\bin\publish\ServerWhiteboard.runtimeconfig.json
-C:\Users\truon\source\repos\ServerWhiteboard\bin\publish\ServerWhiteboard.pdb
